@@ -1,3 +1,16 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  front-family: Arial, Helvetica, Sans-serif;
+  line-height: 1,5;
+  color: #222
+  background: #fff;
+  margin: 0;
+}
+
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -25,13 +38,19 @@ main {
 }
 aside {
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgb( 0 0 0/ 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
+  color: #333
   text-align: center;
+  position: relative;
 }
+
+aside h2 {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  margin: 0;
+  font-size: 19px;
+}
+
 aside img {
   width: 200px;
   height: auto;
@@ -40,8 +59,15 @@ aside img {
   box-shadow: 0 0 30px gray;
 }
 main img {
+  margin-left: 20px;
 width: 150px;
 height: auto;
+border: 1px solid steelblue;
+padding: 2px;
+box-shadow: 0 0 30px gray;
+float: right;
+}
+
 }
 footer {
   margin-top: 15px;
@@ -49,3 +75,15 @@ footer {
   text-align: center;
 }
 
+/* seletores de classe */
+.caixa {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
+.identacao {
+  padding-left: 2rem;
+}
